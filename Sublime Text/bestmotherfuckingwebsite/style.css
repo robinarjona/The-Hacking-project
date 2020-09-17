@@ -1,0 +1,35 @@
+
+body{
+	background-color: #F3F3F4
+	font-family: Arial;
+	color:#454545;
+	font-size:12px;
+	margin:2em auto;
+	max-width:800px;
+	padding:1em;
+	line-height:1.4;
+	text-align:justify;
+}
+
+
+span {
+   
+    color: #A83030;
+}
+
+
+#one {
+	color: #444;
+}
+
+.two {
+	color: #454545;
+}
+
+
+
+.kopimi {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
