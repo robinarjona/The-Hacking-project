@@ -1,0 +1,180 @@
+body {
+    margin:0;
+    padding:0em;  
+}
+
+
+p {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    font-size: 13px;
+    font-family: Arial, Helvetica;
+}
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    font-size: 13px;
+    font-family: Arial, Helvetica;
+}
+
+#navbar {
+    display: flex ;
+    justify-content: flex-end;
+
+}
+.gmail {
+    margin-right: 20px;
+    margin-top: 40px;
+}
+.image {
+    margin-right: 20px;
+    margin-top: 40px;
+}
+.menu {
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.signin {
+    margin-right: 20px;
+    margin-top: 30px;
+    background-color: #4683ea;
+    height: 30px;
+    width: 65px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #4285f4;
+}
+
+
+#main {
+    min-height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 70px 70px 250px;
+    grid-template-areas: 
+    ". logo ."
+    ". search ."
+    ". flexbox ."
+    ". google-text .";
+}
+
+#logo {
+    grid-area: logo;
+    justify-self: center;
+    align-self: end;
+}
+#search {
+    grid-area: search;
+    height: 30px;
+    width: 80%;
+    align-self: center;
+    justify-self: center;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    border-radius: 30px;
+}
+
+#search:focus {
+    box-shadow: 1px 1px 5px grey;
+}
+#search:hover {
+    box-shadow: 1px 1px 5px grey;
+}
+
+#flexbox {
+    display: flexbox;
+    grid-area: flexbox;
+    justify-self: center;
+    align-self: center;
+}
+#google-search-btn {
+    border: none;
+    font-size: 15px;
+    color: #5F6368;
+    margin-right: 25px;
+    padding: 7px 15px 7px 15px;
+    border-radius: 3px;
+}
+#random-search-btn {
+    border: none;
+    font-size: 15px;
+    color: #5F6368;
+    padding: 7px 15px 7px 15px;
+    border-radius: 3px;
+}
+#google-search-btn:hover {
+    border: 1px solid rgba(0, 0, 0, 0.226);
+}
+#random-search-btn:hover {
+    border: 1px solid rgba(0, 0, 0, 0.226);
+}
+
+#google-text {
+    grid-area: google-text;
+    justify-self: center;
+}
+#english {
+    color: blue;
+}
+
+
+#footer {
+    background-color: #E2E2E2;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+
+}
+#conteneur
+{
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;   
+}
+
+
+.infoconsommateurs {
+    color: #797979;
+    padding-right: 20px;
+    font-size: 0.9em;
+}
+.confidentialite {
+    color: #797979;
+    padding-right: 20px;
+    font-size: 0.9em;
+}
+.conditions {
+    color: #797979;
+    padding-right: 20px;
+    font-size: 0.9em;
+}
+.parametres {
+    color: #797979;
+    padding-right: 20px;
+    font-size: 0.9em;
+}
+
+.publicite {
+    color: #797979;
+    padding-left: 20px;
+    font-size: 0.9em;
+     margin: auto; 
+}
+.entreprise {
+      color: #797979;
+    padding-left: 20px;
+    font-size: 0.9em;
+     margin: auto; 
+}
+.apropos {
+  color: #797979;
+    padding-left: 20px;
+    font-size: 0.9em;
+     margin: auto; 
+}
+.comment {
+  color: #797979;
+    padding-left: 20px;
+    font-size: 0.9em;
+     margin: auto; 
+}
